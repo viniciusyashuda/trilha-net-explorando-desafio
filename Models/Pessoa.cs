@@ -4,10 +4,8 @@ public class Pessoa
 {
     public Pessoa() { }
 
-    public Pessoa(string nome)
-    {
+    public Pessoa(string nome) =>
         Nome = nome;
-    }
 
     public Pessoa(string nome, string sobrenome)
     {
